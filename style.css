@@ -96,3 +96,22 @@ input {
     height: 1.5rem;
     border: .5px solid lightgray;
 }
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+input:focus {
+    outline-color: blue;
+}
+
+#password:invalid, #confirm-pw:invalid {
+    outline-color: red;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
